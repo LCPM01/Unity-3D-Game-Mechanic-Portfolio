@@ -57,6 +57,9 @@ public class CS_CraftingSystem : MonoBehaviour {
 		{
 			Destroy(objBlue);
 			Destroy(objYellow);
+			boolRed = false;
+			boolBlue = false;
+			boolYellow = false;
 			GameObject Green = Instantiate(green, spawnArea.transform.position, spawnArea.transform.rotation);
 		}
 	}
